@@ -115,13 +115,21 @@ h4 { font-size: 1.2rem; }
     text-align: left !important;
     list-style: none !important;
 }
-.links-uteis li {
-  margin: 1.5rem 0;
-}
+
 .links-uteis ul {
     list-style: none;
     padding-left: 0;
 }
+
+.links-uteis li {
+    margin: 1.5rem 0;
+}
+
+.links-uteis a {
+    font-weight: 600;
+}
+
+
 
 
 
