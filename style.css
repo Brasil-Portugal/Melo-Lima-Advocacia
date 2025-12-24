@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Open Sans", Arial, sans-serif;
     background-color: #ffffff;
@@ -25,15 +28,18 @@ p {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
-/* ================= IMAGENS EM GRID ================= */
-.grid img {
-    width: 80%;
+/* ================= IMAGENS EM GRID (APENAS CARDS) ================= */
+#areas .card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
 }
+
 
 
 /* ================= IMAGENS ESPECÍFICAS (50%) ================= */
@@ -83,12 +89,12 @@ h4 { font-size: 1.2rem; }
 }
 
 /* ================= GRID ================= */
-.grid {
+#areas .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* ajuste o número conforme a quantidade de cards */
-    gap: 30px;
-    align-items: stretch;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
 }
+
 
 
 .grid a {
@@ -112,9 +118,6 @@ h4 { font-size: 1.2rem; }
 /* texto do card */
 .card p {
     text-align: justify;
-}
-.card {
-    min-width: 8px;
 }
 
 /* ================= QUADRO LEGAL ================= */
@@ -151,13 +154,11 @@ button:hover {
 
 /* ================= RESPONSIVO ================= */
 @media (max-width: 900px) {
-    .container {
-        width: 90%;
-    }
-
-    .grid {
+    #areas .grid {
         grid-template-columns: 1fr;
     }
+}
+
 
     .img-reduzida {
         width: 80%;
@@ -261,11 +262,17 @@ main h4 {
 }
 
 /* Cards ocupam o espaço corretamente */
+
+#areas .grid {
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 #areas .card {
     width: 100%;
+    padding: 14px;
+    font-size: 0.95rem;
 }
-
-
 
 
 
