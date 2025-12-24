@@ -98,6 +98,11 @@ h4 { font-size: 1.2rem; }
     border-radius: 10px;
     padding: 20px;
 }
+#areas .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
 /* imagem do card */
 .card img {
@@ -109,6 +114,8 @@ h4 { font-size: 1.2rem; }
     text-align: justify;
 }
 
+
+
 /* ================= QUADRO LEGAL ================= */
 .lei {
     background: #ffffff;
@@ -117,6 +124,7 @@ h4 { font-size: 1.2rem; }
     font-size: 0.9rem;
     text-align: left;
 }
+
 
 /* ================= BOTÕES ================= */
 .btn,
@@ -293,6 +301,9 @@ main h4 {
     margin: 40px auto;
 }
 
+#areas .lei {
+    margin-top: auto;
+}
 
 
 
