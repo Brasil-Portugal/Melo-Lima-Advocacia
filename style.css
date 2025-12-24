@@ -258,28 +258,28 @@ main h4 {
 /* Imagem de abertura (home / topo) */
 .img-abertura {
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 40px auto;
 }
 
 /* Foto institucional – advogada */
 .img-advogada {
     width: 60%;
-    max-width: 450px;
+    max-width: 650px;
     margin: 40px auto;
 }
 
 /* Imagem – trabalho híbrido */
 .img-trabalho-hibrido {
-    width: 75%;
-    max-width: 900px;
+    width: 55%;
+    max-width: 600px;
     margin: 40px auto;
 }
 
 /* Imagem – atendimento digital */
 .img-atendimento {
-    width: 75%;
-    max-width: 900px;
+    width: 65%;
+    max-width: 650px;
     margin: 40px auto;
 }
 
@@ -289,6 +289,7 @@ main h4 {
     max-width: 800px;
     margin: 40px auto;
 }
+
 
 
 
