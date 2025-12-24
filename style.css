@@ -275,6 +275,29 @@ button:hover {
 }
 
 
+/* ================= LARGURA DO TEXTO (70%) ================= */
+
+.texto-imagem,
+.conteudo .texto,
+.intro,
+main > section:not(#areas) {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ================= ÁREA DOS CARDS (100%) ================= */
+
+#areas {
+    width: 100%;
+}
+
+#areas .grid {
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 
 
 
