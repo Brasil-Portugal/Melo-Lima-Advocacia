@@ -28,7 +28,7 @@ p {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -210,7 +210,7 @@ button:hover {
     font-weight: bold;
 }
 .img-advogada {
-    width: 50%;        /* AQUI você controla o tamanho */
+    width: 60%;        /* AQUI você controla o tamanho */
     max-width: 400px;  /* limite elegante */
 }
 /* ================= PADRÃO TÍTULOS INTERNOS ================= */
@@ -269,6 +269,7 @@ main h4 {
     padding: 60px;
     font-size: 0.95rem;
 }
+
 
 
 
