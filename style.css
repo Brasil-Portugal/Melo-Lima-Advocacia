@@ -246,6 +246,25 @@ main h4 {
     margin: 30px 0 15px 0;
     line-height: 1.4;
 }
+/* ================= EXCEÇÃO DE LARGURA PARA ÁREA DE CARDS ================= */
+
+/* Wrapper dos cards ocupa quase a tela toda */
+#areas {
+    width: 100%;
+}
+
+/* Grid ignora o limite de 70% do container */
+#areas .grid {
+    width: 95%;
+    max-width: 1400px; /* controle elegante em telas grandes */
+    margin: 0 auto;
+}
+
+/* Cards ocupam o espaço corretamente */
+#areas .card {
+    width: 100%;
+}
+
 
 
 
