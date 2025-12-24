@@ -435,6 +435,25 @@ main > section:not(#areas) {
 .card-conteudo p {
     text-align: justify;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+    position: static;
+}
+.card-conteudo {
+    position: static;
+}
+
+.card-conteudo p {
+    position: static;
+}
+.card img {
+    position: static;
+    z-index: 1;
+}
+
+
+
 
 
 
