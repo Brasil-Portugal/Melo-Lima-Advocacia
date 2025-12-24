@@ -259,7 +259,7 @@ main h4 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 20px;
     width: 95%;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -269,6 +269,7 @@ main h4 {
     padding: 60px;
     font-size: 0.95rem;
 }
+
 
 
 
