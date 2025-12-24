@@ -28,7 +28,7 @@ p {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -38,20 +38,6 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-}
-
-
-
-/* ================= IMAGENS ESPECÍFICAS (50%) ================= */
-.img-reduzida {
-    width: 50%;
-}
-
-/* ================= CENTRALIZAÇÃO OPCIONAL ================= */
-.imagem,
-.imagem-centralizada {
-    display: flex;
-    justify-content: center;
 }
 
 /* ================= TÍTULOS ================= */
@@ -209,10 +195,7 @@ button:hover {
     background-color: #170da0;
     font-weight: bold;
 }
-.img-advogada {
-    width: 60%;        /* AQUI você controla o tamanho */
-    max-width: 400px;  /* limite elegante */
-}
+
 /* ================= PADRÃO TÍTULOS INTERNOS ================= */
 
 /* Títulos principais dentro das páginas */
@@ -268,6 +251,43 @@ main h4 {
     width: 100%;
     padding: 60px;
     font-size: 0.95rem;
+}
+
+/* ================= CONTROLE INDIVIDUAL DE IMAGENS DO SITE ================= */
+
+/* Imagem de abertura (home / topo) */
+.img-abertura {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Foto institucional – advogada */
+.img-advogada {
+    width: 60%;
+    max-width: 450px;
+    margin: 40px auto;
+}
+
+/* Imagem – trabalho híbrido */
+.img-trabalho-hibrido {
+    width: 75%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Imagem – atendimento digital */
+.img-atendimento {
+    width: 75%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Imagem genérica institucional (se precisar no futuro) */
+.img-institucional {
+    width: 70%;
+    max-width: 800px;
+    margin: 40px auto;
 }
 
 
