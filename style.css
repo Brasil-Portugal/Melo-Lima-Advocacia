@@ -191,6 +191,31 @@ button:hover {
         grid-template-columns: 1fr;
     }
 }
+/* ================= AJUSTE FINAL – TÍTULOS DOS CARDS ================= */
+
+/* força todos os títulos na mesma altura */
+#areas .card h3 {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 16px 0;
+}
+
+/* somente o título é clicável */
+#areas .card h3 a {
+    text-decoration: none;
+    color: #170da0;
+    font-weight: 700;
+    display: inline-block;
+}
+
+/* underline apenas no hover do título */
+#areas .card h3 a:hover {
+    text-decoration: underline;
+}
+
 
 
 
