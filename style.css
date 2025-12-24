@@ -354,6 +354,85 @@ main > section:not(#areas) {
     margin-bottom: 12px;
 }
 
+/* ===================================================
+   CONTAINER GERAL — 70% CENTRALIZADO
+=================================================== */
+.texto-imagem,
+.conteudo,
+.container,
+.cards-area {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===================================================
+   GRID DOS CARDS — DESKTOP
+=================================================== */
+.cards-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    justify-content: center;
+}
+
+/* ===================================================
+   CARD
+=================================================== */
+.cards-area .card {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===================================================
+   TEXTO DOS CARDS — COMPACTAÇÃO REAL
+=================================================== */
+.cards-area .card .card-conteudo p {
+    line-height: 1.2 !important;   /* reduz altura entre linhas */
+    margin-bottom: 6px !important;
+    margin-top: 0 !important;
+    font-size: 0.92rem;
+}
+
+/* remove espaço após o último parágrafo */
+.cards-area .card .card-conteudo p:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* ===================================================
+   TÍTULOS — NÃO ALTERAR ALTURA
+=================================================== */
+.cards-area .card h3 {
+    margin-bottom: 12px;
+    line-height: normal;
+}
+
+/* ===================================================
+   MOBILE — RESPONSIVO REAL
+=================================================== */
+@media (max-width: 768px) {
+
+    /* texto ocupa quase toda a tela */
+    .texto-imagem,
+    .conteudo,
+    .container,
+    .cards-area {
+        max-width: 92%;
+    }
+
+    /* cards empilhados */
+    .cards-area {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    /* texto ainda mais compacto no mobile */
+    .cards-area .card .card-conteudo p {
+        line-height: 1.15 !important;
+        font-size: 0.9rem;
+    }
+}
+
 
 
 
