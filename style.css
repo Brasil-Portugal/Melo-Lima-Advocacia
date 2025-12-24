@@ -432,6 +432,10 @@ main > section:not(#areas) {
         font-size: 0.9rem;
     }
 }
+.card-conteudo p {
+    text-align: justify;
+}
+
 
 
 
