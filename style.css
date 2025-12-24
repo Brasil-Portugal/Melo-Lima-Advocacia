@@ -311,6 +311,49 @@ main > section:not(#areas) {
 #areas .card .card-conteudo {
     padding: 0;
 }
+/* ================= LARGURA GERAL DO TEXTO ================= */
+.texto-imagem,
+.conteudo,
+.container {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ================= CENTRALIZAÇÃO DOS CARDS ================= */
+#areas {
+    display: flex;
+    justify-content: center;
+}
+
+#areas .grid {
+    max-width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ================= COMPACTAÇÃO REAL DO TEXTO DOS CARDS ================= */
+
+/* força a redução do espaçamento entre linhas */
+#areas .card p {
+    line-height: 1.25 !important;
+    margin: 0 0 8px 0 !important;
+    font-size: 0.92rem;
+}
+
+/* remove espaçamentos extras internos */
+#areas .card .card-conteudo {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* garante que títulos NÃO sejam afetados */
+#areas .card h3 {
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
 
 
 
