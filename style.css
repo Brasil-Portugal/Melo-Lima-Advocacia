@@ -44,7 +44,7 @@ img {
 
 /* ================= IMAGENS ESPECÍFICAS (50%) ================= */
 .img-reduzida {
-    width: 70%;
+    width: 50%;
 }
 
 /* ================= CENTRALIZAÇÃO OPCIONAL ================= */
@@ -269,6 +269,7 @@ main h4 {
     padding: 60px;
     font-size: 0.95rem;
 }
+
 
 
 
