@@ -452,6 +452,11 @@ button {
     justify-content: center;
 }
 
+/* === TESTE ESPAÇO SUPERIOR PÁGINAS INTERNAS === */
+section {
+    padding-top: 0 !important;
+}
+
 
 
 
