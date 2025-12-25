@@ -168,6 +168,27 @@ button {
         grid-template-columns: 1fr;
     }
 }
+.cards-area {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+}
+
 
 
 
