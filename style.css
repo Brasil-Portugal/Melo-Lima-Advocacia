@@ -1,3 +1,8 @@
+
+:root {
+  --largura-card: 260px; /* ALTERE AQUI */
+}
+
 /* ================= RESET ================= */
 * {
     box-sizing: border-box;
@@ -377,6 +382,23 @@ button {
   font-weight: 600;
   text-align: center;
 }
+
+/* CORREÇÃO GARANTIDA DAS IMAGENS DOS CARDS */
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+.card {
+  width: var(--largura-card);
+}
+--largura-card: 300px;
+--largura-card: 220px;
+
 
 
 
