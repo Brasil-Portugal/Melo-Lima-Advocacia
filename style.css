@@ -164,6 +164,34 @@ h4 { font-size: 1.2rem; }
         grid-template-columns: 1fr;
     }
 }
+/* ================= AJUSTES PONTUAIS – CARDS E CONTATO ================= */
+
+/* 1. Distribuição correta dos cards na linha única dentro de 70% */
+.cards-area {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    width: 70%;           /* limitar a 70% da página */
+    margin: 0 auto 40px;  /* centraliza horizontalmente e dá margem inferior */
+    justify-content: space-between; /* distribui uniformemente os cards */
+}
+
+/* 2. Reduzir espaço entre o conteúdo e a base legal do card */
+.cards-area .card .card-conteudo {
+    padding-bottom: 0; /* remove padding interno inferior */
+}
+
+.cards-area .card .card-conteudo p:last-child {
+    margin-bottom: 0;  /* remove margem do último parágrafo */
+}
+
+/* 3. Centralizar botão de Contato Institucional dentro de 70% */
+.contato {
+    text-align: center;
+    width: 70%;        /* mesma largura dos cards */
+    margin: 40px auto; /* centraliza horizontalmente e dá margem vertical */
+}
+
 
 
 
