@@ -1,6 +1,6 @@
 
 :root {
-  --largura-card: 100px; /* ALTERE AQUI */
+  --largura-card: 150px; /* ALTERE AQUI */
 }
 
 /* ================= RESET ================= */
@@ -448,6 +448,7 @@ button {
     gap: 20px;
     justify-content: center;
 }
+
 
 
 
