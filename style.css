@@ -13,7 +13,8 @@ body {
 /* ================= CONTAINER PADRÃO (TEXTOS) ================= */
 .container,
 .texto-imagem,
-.conteudo {
+.conteudo,
+.contato {
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
@@ -68,35 +69,78 @@ h1, h2, h3, h4 {
     color: #170da0;
 }
 
+/* ================= SEÇÃO ÁREAS DE ATUAÇÃO ================= */
+#areas {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+    padding: 40px 0;
+}
 
-/* ================= ÁREA DE CARDS ================= */
+/* ================= TÍTULO ÁREAS ================= */
+.titulo-areas {
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 1.8rem;
+}
+
+/* ================= GRID DE CARDS ================= */
 .cards-area {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 24px;
-    width: 100%;
-    margin: 40px auto;
+    gap: 20px;
+
+    width: 95%;
+    margin: 0 auto;
 }
-/* === CORREÇÃO FINAL: FORÇA TODOS OS CARDS A CABEREM NO GRID === */
+
+/* força todos os cards a caberem no grid */
 .cards-area > * {
     min-width: 0;
 }
 
-.card,
-.card-link {
-    min-width: 0;
-}
-
 /* ================= CARD ================= */
-.cards-area .card {
+.card {
     background: #f9f9f9;
     border-radius: 10px;
-    padding: 20px;
+
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    padding: 16px 14px;
+    height: 100%;
     color: #170da0;
 }
 
+/* ================= LINK DO CARD ================= */
+.card-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    min-width: 0;
+}
+
+/* ================= IMAGEM DO CARD ================= */
+.card img {
+    margin-bottom: 10px;
+}
+
+/* ================= TÍTULO DO CARD ================= */
+.card h3 {
+    margin: 6px 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* ================= TEXTO DO CARD ================= */
+.card p {
+    margin: 0;
+    line-height: 1.4;
+    text-align: center;
+}
 
 /* ================= BASE LEGAL ================= */
 .cards-area .lei,
@@ -106,13 +150,7 @@ h1, h2, h3, h4 {
     border-left: 4px solid #170da0;
     padding: 10px;
     font-size: 0.9rem;
-}
-
-/* ================= CONTATO ================= */
-.contato {
-    width: 70%;
-    margin: 40px auto;
-    text-align: center;
+    width: 100%;
 }
 
 /* ================= BOTÕES ================= */
@@ -124,35 +162,6 @@ button {
     border-radius: 6px;
     border: none;
     cursor: pointer;
-}
-
-
-/* ================= TÍTULO ÁREAS DE ATUAÇÃO ================= */
-.titulo-areas {
-    text-align: center;
-    margin-bottom: 48px; /* espaço duplo entre título e cards */
-    font-size: 1.8rem;
-}
-
-/* ================= WRAPPER DOS CARDS ================= */
-.cards-wrapper {
-    width: 90%;
-    margin: 0 auto;
-}
-
-/* ================= CARD ================= */
-.card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-/* ================= LINK DO CARD ================= */
-.card-link {
-    display: block;
-    height: 100%;
-    text-decoration: none;
-    color: inherit;
 }
 
 /* ================= RESPONSIVO ================= */
@@ -173,63 +182,6 @@ button {
         grid-template-columns: 1fr;
     }
 }
-
-/* === SEÇÃO ÁREAS DE ATUAÇÃO – LARGURA TOTAL REAL === */
-#areas {
-    width: 100%;
-    max-width: none;
-    margin: 0 auto;
-    padding: 40px 0;
-}
-
-/* === GRID DE CARDS === */
-.cards-area {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-
-    width: 95%;
-    margin: 0 auto;
-}
-
-/* === CARD INDIVIDUAL === */
-.card,
-.card-link {
-    width: 100%;
-    min-width: 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding: 16px 14px; /* reduz espaço interno */
-}
-
-/* === IMAGEM DO CARD === */
-.card img {
-    margin-bottom: 10px; /* aproxima imagem do título */
-}
-
-/* === TÍTULO DO CARD === */
-.card h3 {
-    margin: 6px 0 6px 0;
-    line-height: 1.2;
-    text-align: center;
-}
-
-/* === TEXTO DO CARD === */
-.card p {
-    margin: 0;
-    line-height: 1.4;
-    text-align: center;
-}
-
-/* === GARANTE QUE NENHUM CARD QUEBRE LINHA === */
-.cards-area > * {
-    min-width: 0;
-}
-
-
 
 
 
