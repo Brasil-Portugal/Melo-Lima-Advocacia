@@ -84,6 +84,14 @@ h4 { font-size: 1.2rem; }
     margin: 0 auto 40px;  /* centraliza horizontalmente e dá margem inferior */
     justify-items: stretch; /* garante que todos os cards ocupem a mesma largura */
 }
+.cards-area {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    width: 70%;
+    margin: 40px auto;
+    justify-content: space-between;
+}
 
 /* ================= CARD ================= */
 .cards-area .card {
@@ -192,6 +200,7 @@ button:hover {
         width: 90%;
     }
 }
+
 
 
 
