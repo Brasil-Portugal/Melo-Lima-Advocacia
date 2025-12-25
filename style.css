@@ -348,11 +348,19 @@ button {
   text-align: center;
 }
 
-.card-titulo a {
-  color: #170da0;
-  text-decoration: none;
-  font-weight: 600;
+/* ================= TÍTULOS DOS CARDS ================= */
+.cards-area .card h3,
+.cards-area .card h3 a {
+    color: #170da0;
+    text-decoration: none;
+    font-weight: 600;
 }
+
+/* Hover opcional, sem mudar layout */
+.cards-area .card h3 a:hover {
+    text-decoration: underline;
+}
+
 
 .card-titulo a:hover {
   text-decoration: underline;
@@ -369,6 +377,7 @@ button {
   font-weight: 600;
   text-align: center;
 }
+
 
 
 
