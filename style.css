@@ -276,6 +276,51 @@ button {
     margin: 0 auto;
 }
 
+/* ================= CONTROLE INDIVIDUAL DAS IMAGENS DO SITE ================= */
+/* (NÃO AFETA IMAGENS DOS CARDS) */
+
+/* Imagem de abertura */
+.img-abertura {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Imagem da advogada (acordos judiciais) */
+.img-advogada {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Imagem trabalho híbrido */
+.img-trabalho-hibrido {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Imagem atendimento digital */
+.img-atendimento {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* ================= IMAGENS DOS CARDS ================= */
+.cards-area img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
 
 
 
