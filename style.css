@@ -200,6 +200,40 @@ button:hover {
         width: 90%;
     }
 }
+/* ================= AJUSTE INDIVIDUAL DAS IMAGENS PRINCIPAIS ================= */
+
+/* Imagem 1 — Abertura do site */
+.img-abertura {
+    max-width: 100px;   /* ajuste a largura máxima */
+    height: auto;       /* mantém proporção */
+    display: block;
+    margin: 0 auto;     /* centraliza horizontalmente */
+}
+
+/* Imagem 2 — Foto da advogada */
+.img-advogada {
+    max-width: 70px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Imagem 3 — Outra imagem do site */
+.img-imagem3 {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Imagem 4 — Outra imagem do site */
+.img-imagem4 {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 
