@@ -406,8 +406,6 @@ button {
 
 /* Centraliza a seção inteira dos cards */
 #areas {
-    display: flex;
-    justify-content: center;
     width: 100%;
 }
 
@@ -448,6 +446,7 @@ button {
     gap: 20px;
     justify-content: center;
 }
+
 
 
 
