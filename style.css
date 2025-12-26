@@ -481,6 +481,17 @@ main > section:first-child {
 .texto-imagem p {
     text-align: justify;
 }
+/* === LINKS DO MENU (INÍCIO | ÁREAS | CONTATO) — SUBLINHADOS EM TODO O SITE === */
+.principal a,
+.principal a:visited {
+    color: #170da0;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.principal a:hover {
+    text-decoration-thickness: 2px;
+}
+
 
 
 
