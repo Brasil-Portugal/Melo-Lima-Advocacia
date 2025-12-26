@@ -452,13 +452,11 @@ button {
     justify-content: center;
 }
 
-/* === TESTE COLAPSO DE MARGEM === */
-.conteudo > *:first-child,
-.texto-imagem > *:first-child {
+/* === CORREÇÃO FORÇADA: TEXTO SOBE AO TOPO === */
+main > section:first-child {
+    padding-top: 0 !important;
     margin-top: 0 !important;
 }
-
-
 
 
 
