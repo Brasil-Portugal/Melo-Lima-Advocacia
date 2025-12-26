@@ -295,6 +295,7 @@ button {
     display: block;
     margin: 0 auto;
     margin: 20px auto 0; /* controle de margem superior*/
+    max-height: 220px; /* ajuste o valor */
 
 }
 
@@ -475,6 +476,7 @@ main > section:first-child {
 .texto-imagem p {
     text-align: justify;
 }
+
 
 
 
