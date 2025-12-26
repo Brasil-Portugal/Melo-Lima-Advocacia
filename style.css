@@ -471,6 +471,11 @@ main > section:first-child {
     text-decoration: underline;
 }
 
+/* === CORREÇÃO DE JUSTIFICAÇÃO – TEXTO INTRODUTÓRIO === */
+.texto-imagem p {
+    text-align: justify;
+}
+
 
 
 
