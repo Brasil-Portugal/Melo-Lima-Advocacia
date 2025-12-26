@@ -456,6 +456,10 @@ main > section:first-child > *:first-child {
     margin-top: 0;
 }
 
+main > section:first-child {
+    padding-top: 0;
+}
+
 
 
 
