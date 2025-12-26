@@ -472,7 +472,12 @@ main > section:first-child {
     text-decoration: underline;
 }
 
-/* === CORREÇÃO DE JUSTIFICAÇÃO – TEXTO INTRODUTÓRIO === */
+
+/* === CORREÇÃO DEFINITIVA DE JUSTIFICAÇÃO DO TEXTO INTRODUTÓRIO === */
+.texto-imagem {
+    text-align: left; /* quebra herança do header */
+}
+
 .texto-imagem p {
     text-align: justify;
 }
