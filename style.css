@@ -492,6 +492,40 @@ main > section:first-child {
     text-decoration-thickness: 2px;
 }
 
+/* =====================================================
+   CORREÇÃO MENU MOBILE – LINKS ABAIXO DA IMAGEM
+===================================================== */
+@media (max-width: 768px) {
+
+    .principal {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto 0;
+        width: 100%;
+    }
+
+    .principal ul {
+        display: flex;
+        flex-direction: column; /* quebra para coluna */
+        align-items: center;
+        gap: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .principal li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .principal a {
+        display: inline-block;
+        width: 100%;
+        font-size: 1.2em;
+        padding: 8px 0;
+    }
+}
+
 
 
 
