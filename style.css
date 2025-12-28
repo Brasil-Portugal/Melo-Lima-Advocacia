@@ -546,6 +546,38 @@ main > section:first-child {
     }
 }
 
+/* =====================================================
+   CORREÇÃO RODAPÉ – LINKS E ÍCONES (APENAS MOBILE)
+===================================================== */
+@media (max-width: 768px) {
+
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .links,
+    footer .logos,
+    footer .rodape-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* permite quebra organizada */
+        gap: 12px;       /* espaço entre símbolos */
+    }
+
+    footer a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap; /* evita quebra interna */
+    }
+
+    footer img {
+        max-width: 80px; /* evita que símbolos “estourem” */
+        height: auto;
+    }
+}
 
 
 
