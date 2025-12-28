@@ -526,6 +526,34 @@ main > section:first-child {
     }
 }
 
+/* =====================================================
+   CORREÇÃO DEFINITIVA – ESPAÇAMENTO ENTRE OS CARDS
+===================================================== */
+
+/* Espaço garantido entre os cards em todas as telas */
+.cards-area {
+    gap: 32px !important; /* espaço horizontal e vertical */
+}
+
+/* Garantia extra: espaço individual entre cards */
+.card {
+    margin: 0 !important;
+}
+
+/* Ajuste fino para mobile (evita cards colados) */
+@media (max-width: 768px) {
+    .cards-area {
+        gap: 24px !important;
+    }
+}
+
+/* Ajuste extra para telas muito pequenas */
+@media (max-width: 480px) {
+    .cards-area {
+        gap: 20px !important;
+    }
+}
+
 
 
 
