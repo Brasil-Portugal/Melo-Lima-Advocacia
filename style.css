@@ -28,7 +28,7 @@ body {
 
 /* ================= TEXTO ================= */
 p {
-    line-height: 1.6;
+    line-height: 1.9;
     margin-bottom: 16px;
     text-align: justify;
     color: #170da0;
@@ -578,6 +578,7 @@ main > section:first-child {
         height: auto;
     }
 }
+
 
 
 
