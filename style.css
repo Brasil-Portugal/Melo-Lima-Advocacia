@@ -131,7 +131,7 @@ h1, h2, h3, h4 {
 
 /* ================= IMAGEM DO CARD SIZE ================= */
 .card img {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 /* ================= TÍTULO DO CARD ================= */
@@ -578,6 +578,7 @@ main > section:first-child {
         height: auto;
     }
 }
+
 
 
 
