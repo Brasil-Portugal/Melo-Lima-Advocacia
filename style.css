@@ -44,8 +44,8 @@ img {
 
 /* ================= ICONE WHATSAPP ================= */
 .whatsapp-icon{
-    width:40px;
-    height:40px;
+    width:20px;
+    height:20px;
     max-width:none;
 }
 /* ================= MENU ================= */
@@ -592,10 +592,11 @@ main > section:first-child {
 }
 
 .whatsapp-icon{
-  width:28px !important;
-  height:28px !important;
-  max-width:40px;
+    width:40px;
+    height:40px;
+    max-width:none;
 }
+
 
 
 
