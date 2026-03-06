@@ -586,9 +586,11 @@ main > section:first-child {
 }
 
 .whatsapp-icon{
-  width:1px;        /* aqui você altera o tamanho */
-  height:30px;
+  width:40px !important;
+  height:40px !important;
+  max-width:40px;
 }
+
 
 
 
