@@ -577,19 +577,19 @@ main > section:first-child {
         max-width: 80px; /* evita que símbolos “estourem” */
         height: auto;
     }
-}
 .whatsapp-area{
   display:flex;
   justify-content:center;
   align-items:center;
-  gap:12px;
-  margin-top:10px;
+  gap:6px;           /* distância entre botão e ícone */
+  margin-top:15px;
 }
 
 .whatsapp-icon{
-  width:40px;
+  width:40px;        /* aqui você altera o tamanho */
   height:40px;
 }
+
 
 
 
