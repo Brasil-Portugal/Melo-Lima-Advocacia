@@ -581,7 +581,7 @@ main > section:first-child {
   display:flex;
   justify-content:center;
   align-items:center;
-  gap:6px;           /* distância entre botão e ícone */
+  gap:2px;           /* distância entre botão e ícone */
   margin-top:15px;
 }
 
@@ -589,6 +589,7 @@ main > section:first-child {
   width:60px;        /* aqui você altera o tamanho */
   height:60px;
 }
+
 
 
 
