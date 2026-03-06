@@ -578,17 +578,17 @@ main > section:first-child {
         height: auto;
     }
 }
-
-.whatsapp-container{
-  display:inline-flex;
+.whatsapp-area{
+  display:flex;
+  justify-content:center;
   align-items:center;
   gap:12px;
-  text-decoration:none;
+  margin-top:10px;
 }
 
 .whatsapp-icon{
-  width:32px;
-  height:32px;
+  width:40px;
+  height:40px;
 }
 
 
