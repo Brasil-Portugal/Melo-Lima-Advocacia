@@ -579,6 +579,19 @@ main > section:first-child {
     }
 }
 
+.btn-whatsapp{
+  display:inline-block;
+  background:#25D366;
+  color:#ffffff;
+  padding:12px 22px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.btn-whatsapp:hover{
+  background:#1ebe5d;
+}
 
 
 
