@@ -360,7 +360,7 @@ Atuamos no Brasil e em <strong>Portugal</strong>, prestando serviços jurídicos
 <nav>
   <ul>
 
-    <!-- EBOOK - Roubo de Celular - Primeiras Horas (Hotmart) -->
+    <!-- EBOOK - Roubo de Celular - 
 <li style="margin: 1.5rem 0;">
 <section id="ebook-roubo-celular" style="margin:40px 0;">
 
@@ -496,11 +496,52 @@ BAIXAR GUIA COMPLETO
 </form>
 
 <p id="ebook-msg" style="margin-top:10px;font-size:0.9em;"></p>
+<!-- CAIXA DE CONTATO COM ADVOGADO -->
 
-<p style="margin-top:20px;font-size:0.9em;">
+<div id="whatsapp-advogado" style="display:none; text-align:center; margin-top:30px;">
 
+<div style="
+background:#170da0;
+color:white;
+padding:25px;
+border-radius:10px;
+max-width:420px;
+margin:auto;
+">
+
+<p style="font-size:1.2rem; margin-bottom:10px;">
+Teve prejuízo após roubo de celular?
 </p>
 
+<p style="margin-bottom:18px;">
+Fale agora com um advogado e entenda seus direitos.
+</p>
+
+<a href="https://wa.me/5511983961903" target="_blank" style="text-decoration:none;">
+
+<button
+type="button"
+style="
+background:white;
+color:#170da0;
+border:none;
+padding:12px 24px;
+border-radius:10px;
+font-size:1.1rem;
+cursor:pointer;
+font-weight:bold;
+">
+
+FALAR AGORA COM UM ADVOGADO
+
+</button>
+
+</a>
+
+</div>
+
+</div>
+	  
 </section>
 
 </li>
@@ -638,20 +679,27 @@ document.getElementById("form-ebook").addEventListener("submit", function(e){
 
 e.preventDefault();
 
+var nome = document.getElementById("nome").value;
+var email = document.getElementById("email").value;
+var telefone = document.getElementById("telefone").value;
+
 document.getElementById("ebook-msg").innerHTML =
 "Cadastro realizado. Iniciando download do guia...";
 
 setTimeout(function(){
 
-window.location.href = "ebook-roubo-celular.pdf";
+window.location.href="ebooks/ebook-roubo-celular.pdf";
 
-},1200);
+document.getElementById("whatsapp-advogado").style.display="block";
+
+},1500);
 
 });
 
 </script>
     </body>
 </html>
+
 
 
 
