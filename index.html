@@ -362,23 +362,167 @@ Atuamos no Brasil e em <strong>Portugal</strong>, prestando serviços jurídicos
 
     <!-- EBOOK - Roubo de Celular - Primeiras Horas (Hotmart) -->
 <li style="margin: 1.5rem 0;">
-  <strong>Guia Gratuito</strong> — Celular Roubado: O que Fazer nas Primeiras Horas
+ <section id="ebook-celular-roubado" style="margin:40px 0;">
 
-<form id="ebook-form" style="margin-top:10px;">
+<h1>Roubaram seu celular? O que fazer nas primeiras horas para proteger seu dinheiro</h1>
 
-<input type="text" id="nome" placeholder="Seu nome" required style="display:block;margin:6px 0;padding:6px;width:220px;">
+<p>
+O roubo de celular se tornou uma das situações mais perigosas da vida digital moderna.
+Em poucos segundos o aparelho desaparece e junto com ele estão aplicativos bancários,
+fotos, contatos e grande parte da sua vida digital.
+</p>
 
-<input type="email" id="email" placeholder="Seu email" required style="display:block;margin:6px 0;padding:6px;width:220px;">
+<p>
+Golpistas sabem disso e agem rapidamente tentando acessar contas bancárias,
+redefinir senhas e aplicar fraudes financeiras.
+</p>
 
-<input type="tel" id="telefone" placeholder="Telefone / WhatsApp" required style="display:block;margin:6px 0;padding:6px;width:220px;">
+<p>
+Este guia foi criado para orientar quais decisões podem ser tomadas
+nas primeiras horas após o roubo ou furto do celular.
+</p>
 
-<button type="submit" style="padding:6px 12px;cursor:pointer;">
-Baixar Ebook em PDF
+
+<h2>1. Primeira hora: proteja seu dinheiro</h2>
+
+<p>
+A primeira prioridade deve ser evitar prejuízo financeiro imediato.
+Golpistas normalmente tentam acessar contas bancárias logo após o roubo do aparelho.
+</p>
+
+<ul>
+
+<li>Vá imediatamente a um caixa eletrônico</li>
+
+<li>Transfira valores disponíveis para uma conta de confiança</li>
+
+<li>Se possível, bloqueie as contas diretamente no caixa</li>
+
+</ul>
+
+<p>
+Também é importante pedir ajuda a pessoas de extrema confiança.
+Enquanto você resolve uma etapa, outra pessoa pode verificar
+redes sociais, contas bancárias ou movimentações suspeitas.
+</p>
+
+
+<h2>2. Bloqueio digital imediato</h2>
+
+<p>
+Depois de proteger o dinheiro, o próximo passo é bloquear os acessos digitais.
+</p>
+
+<ul>
+
+<li>E-mail principal</li>
+
+<li>Aplicativos bancários</li>
+
+<li>Conta Google ou Apple ID</li>
+
+<li>Redes sociais</li>
+
+</ul>
+
+<p>
+Altere senhas, encerre sessões ativas e revise notificações de segurança
+enviadas por e-mail.
+</p>
+
+<hr>
+
+
+<h2>Baixe o guia completo gratuito</h2>
+
+<p>
+Receba o material completo com todas as orientações jurídicas e práticas
+para proteger seus dados e seus direitos após o roubo de celular.
+</p>
+
+<form id="form-ebook">
+
+<input type="text" placeholder="Seu nome" required style="display:block;margin:8px 0;padding:8px;width:260px;">
+
+<input type="email" placeholder="Seu email" required style="display:block;margin:8px 0;padding:8px;width:260px;">
+
+<input type="tel" placeholder="Telefone / WhatsApp" required style="display:block;margin:8px 0;padding:8px;width:260px;">
+
+<button type="submit" style="padding:10px 18px;background:#1b4f72;color:white;border:none;cursor:pointer;">
+BAIXAR GUIA COMPLETO
 </button>
 
 </form>
 
-<p id="ebook-msg" style="font-size:0.9em;margin-top:6px;"></p>
+<p id="ebook-msg" style="margin-top:10px;font-size:0.9em;"></p>
+
+
+<h2>3. Registro do crime</h2>
+
+<p>
+Após proteger seus dados e contas, registre o boletim de ocorrência
+o mais rápido possível.
+</p>
+
+<p>
+Em São Paulo o registro pode ser feito pela Delegacia Eletrônica:
+</p>
+
+<p>
+<a href="https://www.delegaciaeletronica.policiacivil.sp.gov.br" target="_blank">
+Delegacia Eletrônica SP
+</a>
+</p>
+
+
+<h2>4. Quando o banco não resolve</h2>
+
+<p>
+Caso a instituição financeira negue o ressarcimento,
+existem alguns caminhos administrativos.
+</p>
+
+<ul>
+
+<li>PROCON</li>
+
+<li>Banco Central – Mecanismo Especial de Devolução (MED)</li>
+
+<li>CEJUSC</li>
+
+<li>Reclame Aqui</li>
+
+</ul>
+
+
+<h2>5. Como prevenir novos golpes</h2>
+
+<ul>
+
+<li>Ativar autenticação em dois fatores</li>
+
+<li>Não salvar senhas no navegador</li>
+
+<li>Fazer backup de documentos</li>
+
+<li>Usar senhas diferentes para cada serviço</li>
+
+</ul>
+
+
+<h2>Sobre a autora</h2>
+
+<p>
+<strong>Zilda de Melo Lima</strong> é advogada há mais de 20 anos,
+com atuação no Brasil e em Portugal.
+</p>
+
+<p>
+Especialista em Direito do Consumidor, Processo Civil
+e casos envolvendo golpes e fraudes digitais.
+</p>
+
+</section>
 </li>
 
 
@@ -507,30 +651,28 @@ Baixar Ebook em PDF
         </nav>
 
       <script src="/Melo-Lima-Advocacia/script.js"></script>
-<script>
 
-document.getElementById("ebook-form").addEventListener("submit", function(e){
+	<script>
+
+document.getElementById("form-ebook").addEventListener("submit", function(e){
 
 e.preventDefault();
 
-var nome = document.getElementById("nome").value;
-var email = document.getElementById("email").value;
-var telefone = document.getElementById("telefone").value;
-
 document.getElementById("ebook-msg").innerHTML =
-"Cadastro realizado. Iniciando download...";
+"Cadastro realizado. Seu download começará agora.";
 
 setTimeout(function(){
 
-window.location.href = "ebook-celular-roubado.pdf";
+window.location.href = "ebook-roubo-celular.pdf";
 
-},1200);
+},1500);
 
 });
 
 </script>
     </body>
 </html>
+
 
 
 
