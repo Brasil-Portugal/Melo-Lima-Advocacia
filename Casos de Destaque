@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Casos de Destaque | Melo Lima Advocacia</title>
+    <meta name="description" content=" .">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Melo-Lima-Advocacia/style.css">
+</head>
+
+<body>
+
+<!-- MENU PRINCIPAL -->
+<nav class="principal">
+  <ul>
+    <li><a href="/Melo-Lima-Advocacia/">Início</a></li>
+    <li><a href="/Melo-Lima-Advocacia/#areas">Áreas de Atuação</a></li>
+    <li><a href="/Melo-Lima-Advocacia/#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<!-- CONTEÚDO PRINCIPAL -->
+<main class="container">
+    
+    <h1>Casos de Destaque </h1>
+
+    <h2>Uma nova forma de violência patrimonial</h2>
+    <p>           </p>
+        </a>
+    </div>
+
+  </main>
+
+<!-- CONTATO -->
+<section class="contato" id="contato">
+    <a href="https://wa.me/5511983961903" class="btn" target="_blank">
+        Acessar Contato Institucional
+    </a>
+</section>
+
+</body>
+</html>
+
+
+
+
+
+
+
