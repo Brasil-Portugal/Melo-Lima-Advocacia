@@ -308,7 +308,7 @@ button {
 
 /* Imagem da advogada (acordos judiciais) */
 .img-advogada {
-    max-width: 400px;
+    max-width: 700px;
     width: 80%;
     height: auto;
     display: block;
@@ -317,7 +317,7 @@ button {
 
 /* Imagem trabalho híbrido */
 .img-trabalho-hibrido {
-    max-width: 500px;
+    max-width: 550px;
     width: 100%;
     height: auto;
     display: block;
@@ -591,6 +591,7 @@ main > section:first-child {
   gap:2px;           /* distância entre botão e ícone */
   margin-top:15px;
 }
+
 
 
 
