@@ -296,13 +296,13 @@ button {
 
 /* Imagem de abertura */
 .img-abertura {
-    max-width: 600px;
+    max-width: 400px;
     width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
     margin: 20px auto 0; /* controle de margem superior*/
-    max-height: 900px; /* ajuste o valor */
+    max-height: 700px; /* ajuste o valor */
 
 }
 
@@ -591,6 +591,7 @@ main > section:first-child {
   gap:2px;           /* distância entre botão e ícone */
   margin-top:15px;
 }
+
 
 
 
